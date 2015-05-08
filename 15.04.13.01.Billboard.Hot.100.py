@@ -2,6 +2,7 @@
 import urllib2
 from bs4 import BeautifulSoup
 
+# 주석 추가.
 def hotProcess():
 	hot100_url = 'http://www.billboard.com/charts/hot-100'
 	hot100_html = urllib2.urlopen( hot100_url )
